@@ -1,2 +1,4 @@
+-   [x]  Restructure project: make components pr ehh... component
 -   [ ]  Make menu work from a sidenav
 -   [ ]  Implement a table
+-   [ ]  Implement a detail view pr row in table (modal?)

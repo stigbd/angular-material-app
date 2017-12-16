@@ -6,13 +6,20 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 import { AppComponent } from './app.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { MenuComponent } from './menu/menu.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToolbarComponent,
+    MenuComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +28,8 @@ import { AppComponent } from './app.component';
     MatMenuModule,
     MatIconModule,
     MatButtonModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
